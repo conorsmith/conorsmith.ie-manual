@@ -2,6 +2,10 @@ location / {
 	index index.html;
 }
 
+location =/music/top-ten-albums-of-2018 {
+	try_files $uri /top-ten-2018.html;
+}
+
 location =/music/top-ten-albums-of-2017 {
 	try_files $uri /top-ten-2017.html;
 }
