@@ -29,3 +29,7 @@ location =/music/top-ten-albums-of-2015 {
 location =/music/top-ten-albums-of-2014 {
 	try_files $uri /top-ten-2014.html;
 }
+
+location =/games/tutorial-quest/play {
+	try_files $uri /game-play-tutorial-quest.html;
+}
