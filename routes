@@ -33,3 +33,7 @@ location =/music/top-ten-albums-of-2014 {
 location =/games/tutorial-quest/play {
 	try_files $uri /game-play-tutorial-quest.html;
 }
+
+location =/games/untitled-root-game/play {
+	try_files $uri /game-play-untitled-root-game.html;
+}
