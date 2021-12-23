@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' lang='' xml:lang=''>
+<head>
+	<meta charset='utf-8' />
+	<meta name='viewport' content='width=device-width, user-scalable=no' />
+	<title>TutorialQuest</title>
+	<link rel="stylesheet" src="/assets/games/godot.css">
+
+</head>
+<body>
+	<canvas id='canvas'>
+		HTML5 canvas appears to be unsupported in the current browser.<br />
+		Please try updating or use a different browser.
+	</canvas>
+	<div id='status'>
+		<div id='status-progress' style='display: none;' oncontextmenu='event.preventDefault();'><div id ='status-progress-inner'></div></div>
+		<div id='status-indeterminate' style='display: none;' oncontextmenu='event.preventDefault();'>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div id='status-notice' class='godot' style='display: none;'></div>
+	</div>
+
+	<script type='text/javascript' src='/assets/games/UntitledRootGame.js'></script>
+	<script type='text/javascript'>
+		const GODOT_CONFIG = {"mainPack":"/assets/games/UntitledRootGame.pck","args":[],"canvasResizePolicy":2,"executable":"/assets/games/UntitledRootGame","experimentalVK":false,"fileSizes":{"UntitledRootGame.pck":4123344,"UntitledRootGame.wasm":13328615},"focusCanvas":true,"gdnativeLibs":[]};
+	</script>
+	<script type='text/javascript' src='/assets/games/godot.js'></script>
+</body>
+</html>
